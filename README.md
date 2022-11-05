@@ -332,7 +332,8 @@ export default function Home() {
 ```
 npx create-expo-app mobile
 ```
-
+- Mudar a extenção do arquivo `app.js` para `app.tsx`
+- Criar o arquivo `tsconfig.json` na raiz do projeto 
 
 
 
