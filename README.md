@@ -288,58 +288,6 @@ export default function Home() {
 
 
 
-##
-### Mobile
-##
-
-- O que é **React Native**
-- O que é o Expo (Documentação)
-- Expo Go vs Dispositivo Fisico (Documentação)
-- Criar o projeto
-
-**React Native**
-- Site: https://reactnative.dev/
-
-**Expo**
-- Site: https://expo.dev/
-
-**Expo Go**
-- Site: https://expo.dev/client
-
-**Android Studio**
-- Site: https://developer.android.com/studio
-
-- Instalar o Expo
-- Instalar o Android Studio para fazer a emulação do dispositivo mobile
-- Configurar ...
-- More Action/Virtual device menager/Create virtual device/
-- Criar uma pasta para o projeto `mobile`
-- Criar o projeto
-- As semelhaças com o React para web
-- Importar os Assets 
-- Configurar a Splash Screen (Template do figma)
-- Nativebase
-- Instalar o NativeBase
-- Customizar o tema do NativeBase (Tokens)
-- Instalar fontes personalizadas
-- Garantir o carregamento das fontes
-- Criar o componente de Loading
-- Criar a tela de SignIn
-
-
-**Criação do projeto**
-- Criar o projeto `mobile`
-```
-npx create-expo-app mobile
-```
-- Mudar a extenção do arquivo `app.js` para `app.tsx`
-- Criar o arquivo `tsconfig.json` na raiz do projeto 
-
-
-
-
-
-
 
 
 
