@@ -196,6 +196,21 @@ npx prisma generate
 npm i @fastify/cors
 ```
 
+**Continuando o back-end**
+- Estrutura do banco e relacionamentos
+- Criando seed do banco de dados
+- Criação de novo bolão
+- Contagem de usuários
+- Contagem de palpites
+
+**Aplicação web**
+- Layout da aplicação
+- Conexão com API
+- Criação do bolão
+
+
+
+
 ##
 ### Front-End
 ##
@@ -484,4 +499,4 @@ export default function Home() {
   - `Twitter` - https://twitter.com/danielsapup3/
   - `Linkedin` - https://www.linkedin.com/in/danielsapup3/
 
-  ##
+##
