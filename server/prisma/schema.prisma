@@ -33,20 +33,34 @@ model User {
 }
 
 //tabela de participante/pivor
-model Particimante {
-  id String @id @default(cuid()) 
+model Participant {
+  id String @id @default(cuid())
+
+  Guess Guess[]
 }
 
 //tabela de jogos
 model Game {
-  id String @id @default(cuid())
+  id   String   @id @default(cuid())
   date DateTime
 
-  firstTeamCountryCode String
+  firstTeamCountryCode  String
   secondTeamCountryCode String
+
+  guesses Guess[]
 }
 
 //tabela de palpites
 model Guess {
   id String @id @default(cuid())
+
+  firstTeamPoints  Int
+  secondTeamPoints Int
+  createdAt        DateTime @default(now())
+  gameId String
+  participantId String
+
+  participant Participant @relation(fields: [participantId], references: [id])
+  game Game @relation(fields: [gameId], references: [id])
+  
 }
