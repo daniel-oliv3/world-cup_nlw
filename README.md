@@ -225,9 +225,11 @@ npx prisma studio
 
 
 
-[ERD](file:///C:/Users/Daniel_Oliveira/Documents/GitHub/world-cup_nlw/server/prisma/ERD.svg)
 
 
+<p align="center">
+  <img alt="...." src="./ERD.jpg" width="100%">
+</p>
 
 
 
