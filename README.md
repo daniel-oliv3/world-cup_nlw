@@ -209,8 +209,8 @@ npm i @fastify/cors
 - Criação do bolão
 
 
-**Prisma**
-- Rodar o projeto
+**Tabelas**
+- Criar as tabelas no arquivo `schema.prisma`
 - Criar as migrate, tabelas no banco
 ```
 npx prisma migrate dev
@@ -221,6 +221,27 @@ npx prisma migrate dev
 ```
 npx prisma studio
 ```
+- Localhost: http://localhost:5555/
+
+
+
+[ERD](file:///C:/Users/Daniel_Oliveira/Documents/GitHub/world-cup_nlw/server/prisma/ERD.svg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
