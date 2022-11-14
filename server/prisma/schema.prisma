@@ -20,23 +20,10 @@ model Pool {
   title    String
   code     String   @unique
   createAt DateTime @default(now())
-  ownerId       String?
+  ownerId  String?
 
   participants Participant[]
-  owner User? @relation(fields: [ownerId], references: [id])    
-}
-
-//tabela de usuario
-model User {
-  id String @id @default(cuid())
-
-  name      String
-  email     String   @unique
-  avatarUrl String?
-  createdAt DateTime @default(now())
-
-  participatingAt Participant[]
-  ownPool         Pool[]
+  owner        User?         @relation(fields: [ownerId], references: [id])
 }
 
 //tabela de participante/pivor
@@ -51,6 +38,18 @@ model Participant {
 
   @@unique([userId, poolId])
 }
+
+//tabela de usuario
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  avatarUrl String?
+  createdAt DateTime @default(now())
+
+  participatingAt Participant[]
+  ownPool         Pool[]
+} 
 
 //tabela de jogos
 model Game {

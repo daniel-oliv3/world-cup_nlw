@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "bugs": {
     "url": "https://github.com/daniel-oliv3/world_cup-nlw/issues"
   },

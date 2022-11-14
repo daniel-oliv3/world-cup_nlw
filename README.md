@@ -224,28 +224,43 @@ npx prisma studio
 - Localhost: http://localhost:5555/
 
 
-**ERD**
+**ERD - Diagrama de relacionamento de entidades**
 - Arquivo `ERD.svg` gerado
 - Visualizar arquivo `ERD.svg` no navegador
-- Diagrama de relacionamento de entidades
+- Diagrama
 
 <p align="center">
   <img alt="...." src="./ERD.jpg" width="100%">
 </p>
 
+- Country Code: https://countrycode.org/
+
 
 ### Criando seed do banco de dados
 - Criar arquivo ´seed.ts´ dentro da pasta `prisma`
+- Console do navegador
+```js
+new Date().toISOString()
+```
+- '2022-11-02T12:00:00.201Z'
 
+- Altera trecho de código no aqruivo `package.json`
 
+```json
+"prisma": {
+  "seed": "tsx prisma/seed.ts"
+},
+```
+- DB seed
 
+```
+npx prisma db seed
+```
 
-
-
-
-
-
-
+- Rodar o projeto
+```
+npx prisma studio
+```
 
 
 
