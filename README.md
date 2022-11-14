@@ -209,6 +209,20 @@ npm i @fastify/cors
 - Criação do bolão
 
 
+**Prisma**
+- Rodar o projeto
+- Criar as migrate, tabelas no banco
+```
+npx prisma migrate dev
+```
+  - Nome: > `create db structure`
+
+- Rodar o projeto
+```
+npx prisma studio
+```
+
+
 
 
 ##
