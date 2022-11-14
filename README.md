@@ -21,6 +21,14 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 **React Native**
 - Site: https://reactnative.dev/
 
+
+### Ferramentas do programador.
+
+**Visual Studio Code**
+- Site: https://code.visualstudio.com/download
+- Extenção
+    - `Prisma`
+
 **Expo**
 - Site: https://expo.dev/
 
@@ -30,12 +38,16 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 **Android Studio**
 - Site: https://developer.android.com/studio
 
-### Ferramentas do programador.
+**Postman**
+- Site: https://www.postman.com/downloads/
 
-**Visual Studio Code**
-- Site: https://code.visualstudio.com/download
-- Extenção
-    - `Prisma`
+**Insomnia**
+- Site: https://insomnia.rest/download
+
+**Hoppscotch**
+- Site: https://hoppscotch.io/
+
+
 
 ### Figma
 - Figma do projeto: https://www.figma.com/community/file/1169028343875283461
@@ -261,8 +273,15 @@ npx prisma db seed
 ```
 npx prisma studio
 ```
+- Executa app backend
+```
+npm run dev
+```
 
 
+**Testes de Requisições**
+- Postman, Hoppscotch, Insomnia
+- Insomnia: https://insomnia.rest/download
 
 
 ##
