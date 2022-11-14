@@ -161,14 +161,14 @@ model Pool {
 ```
 npx prisma migrate dev
 ```
-> create table pools
+- Nome: > create table pools
 
 **Banco de Dados**
 - Visualizar o banco de dados pelo navegador
 ```
 npx prisma studio
 ```
-- http://localhost:5555/
+- Localhost: http://localhost:5555/
 
 
 **Diagrama ERD**
@@ -209,7 +209,7 @@ npm i @fastify/cors
 - Criação do bolão
 
 
-**Tabelas**
+### Estrutura do banco e relacionamentos
 - Criar as tabelas no arquivo `schema.prisma`
 - Criar as migrate, tabelas no banco
 ```
@@ -224,16 +224,18 @@ npx prisma studio
 - Localhost: http://localhost:5555/
 
 
-
-
+**ERD**
+- Arquivo `ERD.svg` gerado
+- Visualizar arquivo `ERD.svg` no navegador
+- Diagrama de relacionamento de entidades
 
 <p align="center">
   <img alt="...." src="./ERD.jpg" width="100%">
 </p>
 
 
-
-
+### Criando seed do banco de dados
+- Criar arquivo ´seed.ts´ dentro da pasta `prisma`
 
 
 
