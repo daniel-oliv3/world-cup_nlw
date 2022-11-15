@@ -126,7 +126,7 @@ node src/server.js
 ```
 npm i tsx -D
 ```
-- Apagar a pasta `server.js`
+- Apagar o arquivo `server.js`
 - Alterar trecho de codigo no arquivo `package.json`
 ```json
   "scripts": {
