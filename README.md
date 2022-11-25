@@ -249,7 +249,7 @@ npx prisma studio
 
 
 ### Criando seed do banco de dados
-- Criar arquivo ´seed.ts´ dentro da pasta `prisma`
+- Criar arquivo `seed.ts` dentro da pasta `prisma`
 - Console do navegador
 ```js
 new Date().toISOString()
@@ -423,7 +423,8 @@ export default function Home() {
 - Mover a pasta `pages` para dentro da pasta `src`
 - Criar a pasta `styles` dentro da pasta `src`
 - Criar a pasta `assets` dentro da pasta `src`
-
+- Exportar imagens no figma do projeto
+- Mover as imagens para a pasta `assets`
 
 
 
