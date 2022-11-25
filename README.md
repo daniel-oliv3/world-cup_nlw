@@ -4,7 +4,7 @@
 
 ### Pré-Requisitos.
 
-React.js, React Native, Node.js, JavaScript, TypeScript.
+React.js, React Native, Node.js, JavaScript, TypeScript, Tailwind CSS.
 
 **Node.js**
 - Site: https://nodejs.org/en/
@@ -20,6 +20,9 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 
 **React Native**
 - Site: https://reactnative.dev/
+
+**Tailwind CSS**
+- Site: https://tailwindcss.com/
 
 
 ### Ferramentas do programador.
@@ -425,6 +428,14 @@ export default function Home() {
 - Criar a pasta `assets` dentro da pasta `src`
 - Exportar imagens no figma do projeto
 - Mover as imagens para a pasta `assets`
+
+
+**Tailwind CSS**
+- Instalar o tailwind css
+- Site: https://tailwindcss.com/
+```
+npm install -D tailwindcss postcss autoprefixer
+```
 
 
 
