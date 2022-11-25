@@ -256,7 +256,7 @@ new Date().toISOString()
 ```
 - '2022-11-02T12:00:00.201Z'
 
-- Altera trecho de código no aqruivo `package.json`
+- Altera trecho de código no arquivo `package.json`
 
 ```json
 "prisma": {
@@ -290,6 +290,33 @@ npm run dev
 ```
 npm i zod
 ```
+
+- Short-unique-id
+- Site: https://www.npmjs.com/package/short-unique-id
+- ```
+npm i short-unique-id
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
