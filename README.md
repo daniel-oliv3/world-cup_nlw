@@ -31,6 +31,8 @@ React.js, React Native, Node.js, JavaScript, TypeScript, Tailwind CSS.
 - Site: https://code.visualstudio.com/download
 - Extenção
     - `Prisma`
+    - `PostCSS Language Support`
+    - `Tailwind CSS IntelliSense`
 
 **Expo**
 - Site: https://expo.dev/
@@ -446,9 +448,19 @@ content: [
     './src/**/*.tsx',
   ],
 ```
+**Fonts**
+- Font: Roboto
+- Site: https://fonts.google.com/specimen/Roboto?query=roboto
+- Regular 400, Bold 700
 
-
-
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+```
+```css
+font-family: 'Roboto', sans-serif;
+```
 
 
 
