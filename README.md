@@ -436,9 +436,16 @@ export default function Home() {
 ```
 npm install -D tailwindcss postcss autoprefixer
 ```
-
-
-
+- Cria o arquivo de configuração `tailwind.config.js`
+```
+npx tailwindcss init -p
+```
+- Alterar trecho de codigo no arquivo `tailwind.config.js`
+```js
+content: [
+    './src/**/*.tsx',
+  ],
+```
 
 
 
