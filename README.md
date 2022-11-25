@@ -418,7 +418,11 @@ export default function Home() {
 - Links Extras: https://medium.com/techbloghotmart/o-que-%C3%A9-server-side-rendering-e-como-usar-na-pr%C3%A1tica-a840d76a6dca
 
 
-
+**Continuação do projeto**
+- Criar a pasta `src` na raiz do projeto
+- Mover a pasta `pages` para dentro da pasta `src`
+- Criar a pasta `styles` dentro da pasta `src`
+- Criar a pasta `assets` dentro da pasta `src`
 
 
 
