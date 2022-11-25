@@ -298,6 +298,12 @@ npm i zod
 npm i short-unique-id
 ```
 
+**Rotas**
+- Pools: http://localhost:3333/pools
+- Pools-Count: http://localhost:3333/pools/count
+- Guesses: http://localhost:3333/guesses/count
+- Users: http://localhost:3333/users/count
+
 
 
 
