@@ -283,6 +283,15 @@ npm run dev
 - Postman, Hoppscotch, Insomnia
 - Insomnia: https://insomnia.rest/download
 
+**Bibliotecas**
+- Schema-Validation
+
+- Zod
+```
+npm i zod
+```
+
+
 
 ##
 ### Front-End
