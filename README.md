@@ -453,6 +453,8 @@ content: [
 - Site: https://fonts.google.com/specimen/Roboto?query=roboto
 - Regular 400, Bold 700
 
+- Colar trecho de codigo no arquivo `_document.tsx`
+
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
