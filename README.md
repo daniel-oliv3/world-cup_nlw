@@ -458,15 +458,21 @@ content: [
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 ```
-```css
-font-family: 'Roboto', sans-serif;
-```
+
+- Alterar trecho de codigo no arquivo `tailwind.config.js`
+
 **Themes**
 ```js
 theme: {
     extend: {
       fontFamily: {
         sans: 'Roboto, sans-serif'
+      },
+      
+      colors: {
+        gray: {
+          900: '#121214'
+        }
       }
     },
   },
