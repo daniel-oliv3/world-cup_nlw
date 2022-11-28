@@ -2,6 +2,7 @@ import Image from 'next/image';
 import  appPreviewImg  from '../assets/nlw-copa-preview.png';
 import logoImg from '../assets/logo.svg';
 import usersAvatarExampleImg from '../assets/avatares.png';
+import iconCheckImg from '../assets/icon.svg';
 
 /* ======= Home ======= */
 export default function Home() {
@@ -21,8 +22,27 @@ export default function Home() {
 
         <form>
           <input type="text" required placeholder='Qual nome do seu bolão' />
-          <button type='submit'>Criar meu bolão</button>
+          <button type='submit'>Criar meu bolão</button>          
         </form>
+
+        <p>Após criar seu bolão você receberá um código único que poderá usar para convidar outras pessoas 🚀</p>
+
+        <div>
+          <div>
+            <Image src={iconCheckImg} alt="" />
+            <div>
+              <span>+2.034</span>
+              <span>Bolões criados</span>
+            </div>
+          </div>
+          <div>
+            <Image src={iconCheckImg} alt="" />
+            <div>
+              <span>+2.034</span>
+              <span>Bolões criados</span>
+            </div>
+          </div>
+        </div>
       </main>
 
       <Image 

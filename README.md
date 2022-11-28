@@ -363,7 +363,7 @@ npm run dev
 
 **Components**
 - Exemplo de components React
-
+- Criar arquivo `Tweet.tsx` dentro da pasta `components`
 ```tsx
 /*Exemplo de Componente React*/
 export function Tweet(){
@@ -393,7 +393,7 @@ export default function Home() {
 - Exemplo de Pripriedades(Atributos) React
 
 ```tsx
-/*Exemplo de Componente React*/
+/*Exemplo de Pripriedades React*/
 export function Tweet(props){
     return (
         <>
@@ -453,6 +453,7 @@ content: [
 - Site: https://fonts.google.com/specimen/Roboto?query=roboto
 - Regular 400, Bold 700
 
+- Criar o arquivo `_document.tsx` dentro da pasta `pages`
 - Colar trecho de codigo no arquivo `_document.tsx`
 
 ```html
