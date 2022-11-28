@@ -510,7 +510,7 @@ npm i axios
 ```
 
 - Criar a pasta `lib` dentro de `src`
-- Criar o arquivo `axios.ts`
+- Criar o arquivo `axios.ts` dentro da pasta `lib`
 
 
 
