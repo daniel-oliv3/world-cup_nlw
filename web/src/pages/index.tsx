@@ -30,7 +30,7 @@ export default function Home() {
           <button 
             className='bg-yellow-500 px-6 py-4 rounded text-gray-900 font-bold text-sm uppercase hover:bg-yellow-700' 
             type='submit'
-            >
+          >
               Criar meu bolão
           </button>          
         </form>
@@ -40,7 +40,7 @@ export default function Home() {
             Após criar seu bolão você receberá um código único que poderá usar para convidar outras pessoas 🚀
         </p>
 
-        <div className='mt-10 pt-10 border-t border-gray-600 divide-x grid grid-cols-2 text-gray-100'>
+        <div className='mt-10 pt-10 border-t border-gray-600 flex items-center justify-between text-gray-100'>
           <div className='flex items-center gap-6'>
             <Image src={iconCheckImg} alt="" />
             <div className='flex flex-col'>
@@ -48,11 +48,14 @@ export default function Home() {
               <span>Bolões criados</span>
             </div>
           </div>
+
+          <div className='w-px h-14 bg-gray-600'></div>
+
           <div className='flex items-center gap-6'>
             <Image src={iconCheckImg} alt="" />
             <div className='flex flex-col'>
-              <span className='font-bold text-2xl'>+2.034</span>
-              <span>Bolões criados</span>
+              <span className='font-bold text-2xl'>+192.847</span>
+              <span>Palpites enviados</span>
             </div>
           </div>
         </div>
