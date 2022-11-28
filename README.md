@@ -502,6 +502,15 @@ module.exports = {
 }
 ```
 
+**Bibliotecas**
+- **Axios**
+- Axios para chamadas HTTP para o backend
+```
+npm i axios
+```
+
+- Criar a pasta `lib` dentro de `src`
+- Criar o arquivo `axios.ts`
 
 
 
