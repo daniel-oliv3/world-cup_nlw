@@ -7,22 +7,32 @@ import iconCheckImg from '../assets/icon.svg';
 /* ======= Home ======= */
 export default function Home() {
   return (
-    <div>
+    <div className='max-w-[1124px] h-screen mx-auto grid grid-cols-2 items-center'>
       <main>
         <Image src={logoImg} alt="NLW Copa"/>
 
-        <h1>Crie seu próprio bolão da copa e compartilhe entre amigos!</h1>
+        <h1 className='mt-14 text-white text-5xl font-bold leading-tight'>Crie seu próprio bolão da copa e compartilhe entre amigos!</h1>
 
-        <div>
+        <div className='mt-10 flex items-center gap-2'>
           <Image src={usersAvatarExampleImg} alt="" />
-          <strong>
-            <span>+12.592</span> pessoas já estão usando
+          <strong className='text-gray-100 text-xl'>
+            <span className='text-ignite-500'>+12.592</span> pessoas já estão usando
           </strong>
         </div>
 
-        <form>
-          <input type="text" required placeholder='Qual nome do seu bolão' />
-          <button type='submit'>Criar meu bolão</button>          
+        <form className='mt-10 flex gap-2'>
+          <input
+            className='flex-1 px-6 py-4 rounded bg-gray-800 border border-gray-600 text-sm' 
+            type="text" 
+            required 
+            placeholder='Qual nome do seu bolão' 
+          />
+          <button 
+            className='bg-yellow-500 px-6 py-4 rounded text-gray-900 font-bold text-sm' 
+            type='submit'
+            >
+              Criar meu bolão
+          </button>          
         </form>
 
         <p>Após criar seu bolão você receberá um código único que poderá usar para convidar outras pessoas 🚀</p>

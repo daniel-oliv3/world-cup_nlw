@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+
+
+
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas
+*/
