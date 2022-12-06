@@ -311,10 +311,31 @@ npm i short-unique-id
 
 
 
+**Conectando o app mobile com o back-end**
+- Finalizar o back-and
+  - Separando arquivos de rotas
+  - Criação de usuário (Access Token da Google)
+  - Geração de JWT
+  - Validação de JWT
+  - Rota de perfil `/me`
+  - Criação de bolão com usuário logado
+  - Entrar em um bolão
+  - Bolões que eu participo
+  - Detalhes de um bolão
+  - Listagem de jogos de um bolão
+  - Criação de um palpite
+- Finalização do app mobile
 
 
-
-
+**Routes**
+- Criar a pasta `routes` dentra da pasta `src`
+- Criar o arquivo `auth.ts` dentro da pasta `routes`
+- Criar o arquivo `game.ts` dentro da pasta `routes`
+- Criar o arquivo `guess.ts` dentro da pasta `routes`
+- Criar o arquivo `pool.ts` dentro da pasta `routes`
+- Criar o arquivo `user.ts` dentro da pasta `routes`
+- Criar a pasta `lib` dentra da pasta `src`
+- Criar o arquivo `prisma.ts` dentro da pasta `lib`
 
 
 

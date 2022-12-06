@@ -1,12 +1,9 @@
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import { z } from 'zod';
-import { PrismaClient } from '@prisma/client';
 import ShortUniqueId from 'short-unique-id';
 
-const prisma = new PrismaClient({
-    log: ['query'],
-})
+
 
 async function bootstrap(){
     const fastify = Fastify({
@@ -17,12 +14,7 @@ async function bootstrap(){
         origin: true,
     });
     
-    /* ======= Rotas ======= */
-    fastify.get('/pools/count', async () => {
-        const count = await prisma.pool.count();
 
-        return { count }
-    });
 
     /* ======= Rota contagem de usuario ======= */
     fastify.get('/users/count', async () => {
