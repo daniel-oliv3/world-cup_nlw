@@ -411,10 +411,10 @@ export default function Home() {
 ```
 
 **Propriedades** **(Props)**
-- Exemplo de Pripriedades(Atributos) React
+- Exemplo de Propriedades(Atributos) React
 
 ```tsx
-/*Exemplo de Pripriedades React*/
+/*Exemplo de Propriedades React*/
 export function Tweet(props){
     return (
         <>

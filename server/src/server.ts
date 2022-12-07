@@ -2,6 +2,7 @@ import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import { z } from 'zod';
 import ShortUniqueId from 'short-unique-id';
+import { PoolRoutes } from './routes/pool';
 
 
 
@@ -14,6 +15,8 @@ async function bootstrap(){
         origin: true,
     });
     
+
+    fastify.register(PoolRoutes);
 
 
     /* ======= Rota contagem de usuario ======= */
