@@ -4,6 +4,6 @@ import { prisma } from '../lib/prisma';
 
 
 /* ======= Rota Game ======= */
-export function gameRoutes(fastify: FastifyInstance){
+export async function gameRoutes(fastify: FastifyInstance){
 
 }

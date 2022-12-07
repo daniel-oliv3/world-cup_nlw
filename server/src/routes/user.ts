@@ -3,7 +3,11 @@ import { prisma } from '../lib/prisma';
 
 
 
-/* ======= Rota User ======= */
-export function userRoutes(fastify: FastifyInstance){
+/* ======= Rota contagem de usuario ======= */
+export async function userRoutes(fastify: FastifyInstance){
+  fastify.get('/users/count', async () => {
+    const count = await prisma.user.count();
 
+    return { count }
+  });
 }

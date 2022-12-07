@@ -29,7 +29,7 @@ React.js, React Native, Node.js, JavaScript, TypeScript, Tailwind CSS.
 
 **Visual Studio Code**
 - Site: https://code.visualstudio.com/download
-- Extenção
+- Extensão
     - `Prisma`
     - `PostCSS Language Support`
     - `Tailwind CSS IntelliSense`
@@ -339,6 +339,7 @@ npm i short-unique-id
 
 
 
+- Criação de usuário (Access Token da Google)
 
 
 
@@ -376,8 +377,8 @@ npm run dev
 - Localhost: http://localhost:3000/
 
 - Clear, limpar o projeto
-- Alterar a extenção do arquivo `_app.js` para `_app.tsx`
-- Alterar a extenção do arquivo `_index.js` para `_index.tsx`
+- Alterar a extensão do arquivo `_app.js` para `_app.tsx`
+- Alterar a extensão do arquivo `_index.js` para `_index.tsx`
 
 **JSX - JavaScript + XML (HTML)**
 **TSX - TypeScript + JSX**

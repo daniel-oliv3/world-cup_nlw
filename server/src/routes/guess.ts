@@ -3,7 +3,11 @@ import { prisma } from '../lib/prisma';
 
 
 
-/* ======= Rota Guess ======= */
-export function guessRoutes(fastify: FastifyInstance){
+/* ======= Rota contagem de palpites ======= */
+export async function guessRoutes(fastify: FastifyInstance){
+  fastify.get('/guesses/count', async () => {
+    const count = await prisma.guess.count();
 
+    return { count }
+  });
 }
